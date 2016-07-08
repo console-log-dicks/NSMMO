@@ -1,0 +1,130 @@
+* 
+{
+    box-sizing: border-box;
+}
+body
+{
+	font-family: "calibri";
+	background-image: url(../grass_tile.png);
+	background-size: 128px 128px;
+	margin: 0;
+}
+.toppanel
+{
+	background-color: black;
+	height: 65px;
+	padding: 10px;
+	color: white;
+	font-size: 200%;
+}
+.login
+{
+	width: 90%;
+	height: 90%;
+	padding: 5%;
+	margin: 0 auto;
+	overflow-x: auto;
+}
+.infopanel
+{
+	display: block;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 30px;
+	padding: 30px;
+}
+.info
+{
+	color: #555;
+	padding-left: 15px;
+	padding-right: 15px;
+	overflow:scroll;
+	height:210px;
+}
+.formcontainer
+{
+	display: block;
+	background-color: white;
+	margin: 0 auto;
+	padding: 30px;
+}
+.formcontainer_2
+{
+	display: block;
+	background-color: white;
+	margin: 0 auto;
+	padding: 30px;
+}
+.loginform
+{
+	width: 100%;
+}
+.login input[type="text"]
+{
+	color: #555;
+	margin: 1%;
+	width: 98%;
+	border: 2px solid #CCC;
+	background-color: white;
+	background-image: url('../login_user_icon.png');
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	background-size: 14px 14px;
+	padding: 10px;
+	padding-left: 30px;
+	outline: none
+}
+.login input[type="password"]
+{
+	color: #555;
+	margin: 1%;
+	width: 98%;
+	border: 2px solid #CCC;
+	background-color: white;
+	background-image: url('../login_password_icon.png');
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	background-size: 14px 14px;
+	padding: 10px;
+	padding-left: 30px;
+	outline: none
+}
+.login input[type="submit"]
+{
+	color: white;
+	margin: 1%;
+	width: 98%;
+	border: 2px solid black;
+	background-color: black;
+	padding: 10px;
+	outline: none;
+}
+.login ::-webkit-input-placeholder
+{
+	color: #CCC;
+}
+.login ::-moz-placeholder
+{
+	color: #CCC;
+}
+.login input[type="submit"]:hover
+{
+	background-color: #6CE539;
+	border: 2px solid #6CE539;
+}
+.promptregister
+{
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 13px;
+}
+.login .promptregister a
+{
+	color: #CCC;
+	text-decoration: none;
+}
+.login .promptregister a:hover
+{
+	color: #555;
+}
